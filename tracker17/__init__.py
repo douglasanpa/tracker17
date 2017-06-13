@@ -11,12 +11,12 @@ class Tracker(object):
     'Accept': '*/*',
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
     'Origin': 'http://www.17track.net',
-    'Referer': 'http://www.17track.net/pt/track?nums={package}&fc=0',
+    'Referer': 'http://www.17track.net/pt/track?nums={package}&fc=02151',
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36',
     'X-Requested-With': 'XMLHttpRequest'
     }
 
-    form_data = '{{"guid":"","data":[{{"num":"{package}"}}]}}'
+    form_data = '{{"guid":"","data":[{{"num":"{package}","fc":"02151"}}]}}'
 
 
     def __init__(self):
